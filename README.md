@@ -52,6 +52,7 @@ The Brain Rot Index (BRI) prediction task was formulated as a regression problem
 
 
 ## 📂 Project Structure
+```text
 Social-Media-Addiction-Detection/
 │
 ├── data/
@@ -69,7 +70,7 @@ Social-Media-Addiction-Detection/
 │   └── feature_importance.png
 │
 └── README.md
-
+```
 
 ## 👩‍💻 Author
 
