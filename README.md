@@ -5,6 +5,7 @@ A behavioral analytics and machine learning project that analyzes social media u
 
 The project combines behavioral feature engineering, clustering, visualization, and machine learning to identify risky digital habits such as excessive scrolling, compulsive checking, attention fragmentation, and late-night social media usage.
 
+
 ## 🚀 Key Features
 - Custom Brain Rot Index (BRI) (0–100)
 - Behavioral Feature Engineering
@@ -12,6 +13,7 @@ The project combines behavioral feature engineering, clustering, visualization, 
 - PCA-Based Persona Visualization
 - XGBoost Regression Model
 - Feature Importance Analysis
+
 
 ## Dataset Description
 
@@ -22,6 +24,7 @@ https://www.kaggle.com/datasets/zahranusratt/student-social-media-addiction-anal
 - 705 records
 - 30 features
 - Original features + engineered behavioral features
+
 
 ## 📊 Engineered Behavioral Features
 - App Switch Frequency
@@ -41,9 +44,12 @@ Persona	Description
 - 🟠 Frequent Scrollers	High app-switching and scrolling activity
 - 🔴 Doom Scrollers	High addiction, binge scrolling, compulsive checking
 
+
 ## Machine Learning Model
+
 Model Used : XGBoost Regressor
 The Brain Rot Index (BRI) prediction task was formulated as a regression problem, where the objective was to estimate a user's BRI score based on behavioral and psychological indicators.
+
 
 ## 📂 Project Structure
 Social-Media-Addiction-Detection/
@@ -59,7 +65,6 @@ Social-Media-Addiction-Detection/
 │
 ├── images/
 │   ├── correlation_heatmap.png
-│   ├── brain_rot_distribution.png
 │   ├── persona_pca.png
 │   └── feature_importance.png
 │
